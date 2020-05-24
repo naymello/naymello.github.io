@@ -1,6 +1,10 @@
 import { createGlobalStyle } from 'styled-components'
 
+import FontFaces from './fonts'
+
 const GlobalStyle = createGlobalStyle`
+  ${FontFaces}
+  
   * {
     margin: 0;
     padding: 0;
