@@ -1,6 +1,6 @@
-import React from "react"
+import React from 'react'
 
-import SEO from "../components/SEO"
+import SEO from '../components/SEO'
 import Navigation from '../components/Navigation'
 import MyTitle from '../components/MyTitle'
 import About from '../components/About'
