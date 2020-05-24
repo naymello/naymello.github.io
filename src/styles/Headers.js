@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import Card from './Card'
+
 export const H1 = styled.h1`
   font-size: 3.6rem;
   font-family: 'Poppins';
@@ -16,6 +18,10 @@ export const H3 = styled.h3`
   font-size: 1.7rem;
   font-family: 'Poppins';
   margin: 40px 20px 10px;
+
+  ${Card} & {
+    margin: 20px 10px;
+  }
 `
 
 export const H4 = styled.h4`
