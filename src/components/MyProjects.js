@@ -39,6 +39,7 @@ export default class MyProjects extends Component {
     this.state = {
       projects: [
         {
+          id: 0,
           name: 'My Musical Picture',
           about: 'O My Musical Picture é uma aplicação web que faz uma imagem baseada no histórico de músicas ouvidas pelo usuário no Spotify. Para pegar os dados, usei a Spotify Web API, fazendo requisições através do NodeJS. Também foi usado JavaScript assíncrono na organização e no display dos dados.',
           technologies: 'JavaScript (vanilla), NodeJS, Express, Spotify Web API, SASS',
@@ -48,6 +49,7 @@ export default class MyProjects extends Component {
           cover: mmpCover
         },
         {
+          id: 1,
           name: 'Chord Chart',
           about: 'O Chord Chart é uma aplicação web que mostra acordes do piano de forma dinâmica, facilitando o aprendizado no instrumento. Para isso, foi usado a manipulação de SVG (Scalable Vector Graphics) com a biblioteca React SVG Manipulation Tools.',
           technologies: 'ReactJS, Create React App (CRA), Styled Components',
@@ -68,7 +70,8 @@ export default class MyProjects extends Component {
         <H2>Meus projetos</H2>
         <ProjectsSection>
           {projects.map((project) => (
-            <Project 
+            <Project
+              key={project.id}
               name={project.name}
               about={project.about}
               technologies={project.technologies}
