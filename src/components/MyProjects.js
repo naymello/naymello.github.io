@@ -14,7 +14,12 @@ import ccCover from '../assets/ccCover.jpg'
 const Project = (props) => {
   return (
     <Card>
-      <img src={props.cover} alt={props.name}/>
+      <img 
+        src={props.cover}
+        alt={props.name}
+        onClick={() => { window.open(props.website) }}
+        style={{cursor: 'pointer'}}
+      />
       <div>
         <img src={props.logo} alt={props.name}/>
         <H3>{props.name}</H3>
