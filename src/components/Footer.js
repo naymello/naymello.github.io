@@ -9,7 +9,7 @@ import Wrapper from '../styles/Wrapper'
 const Footer = () => {
   return (
     <StyledFooter>
-      <Wrapper style={{display: 'flex', padding: '0 20px'}}>
+      <Wrapper>
         <Logo fill="#4B4B4B"/>
         <H4 style={{color: '#4B4B4B', margin: '0 20px'}}>Desenvolvido por Nay Mello</H4>
       </Wrapper>

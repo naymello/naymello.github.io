@@ -10,7 +10,7 @@ import hamburger from '../assets/hamburger.svg'
 const Navigation = () => {
   return (
     <Navbar>
-      <Wrapper style={{display: 'flex', padding: '0 20px'}}>
+      <Wrapper>
         <Logo fill="#000" />
         <img src={hamburger} style={{marginLeft: 'auto'}} />
       </Wrapper>
