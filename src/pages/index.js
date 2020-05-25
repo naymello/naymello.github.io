@@ -10,17 +10,20 @@ import MoreInfo from '../components/MoreInfo'
 import Footer from '../components/Footer'
 
 import GlobalStyle from '../styles/GlobalStyle'
+import Wrapper from '../styles/Wrapper'
 
 const IndexPage = () => (
   <>
     <SEO title="Nay Mello" />
     <GlobalStyle />
     <Navigation />
-    <MyTitle />
-    <About />
-    <Technologies />
-    <MyProjects />
-    <MoreInfo />
+    <Wrapper>
+      <MyTitle />
+      <About />
+      <Technologies />
+      <MyProjects />
+      <MoreInfo />
+    </Wrapper>
     <Footer />
   </>
 )
