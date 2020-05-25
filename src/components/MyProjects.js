@@ -41,7 +41,7 @@ export default class MyProjects extends Component {
         {
           name: 'My Musical Picture',
           about: 'O My Musical Picture é uma aplicação web que faz uma imagem baseada no histórico de músicas ouvidas pelo usuário no Spotify. Para pegar os dados, usei a Spotify Web API, fazendo requisições através do NodeJS. Também foi usado JavaScript assíncrono na organização e no display dos dados.',
-          technologies: 'JavaScript, SASS, NodeJS, Express, Spotify Web API',
+          technologies: 'JavaScript (vanilla), NodeJS, Express, Spotify Web API, SASS',
           website: 'https://my-musical-picture.netlify.app/',
           github: 'https://github.com/naymello/my-musical-picture',
           logo: mmpLogo,
