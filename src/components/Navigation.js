@@ -7,7 +7,7 @@ import Wrapper from '../styles/Wrapper'
 
 import hamburger from '../assets/hamburger.svg'
 
-const Header = () => {
+const Navigation = () => {
   return (
     <Navbar>
       <Wrapper style={{display: 'flex', padding: '0 20px'}}>
@@ -18,4 +18,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Navigation
