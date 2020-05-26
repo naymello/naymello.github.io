@@ -72,7 +72,7 @@ export default class MyProjects extends Component {
 
     return (
       <>
-        <H2>Meus projetos</H2>
+        <H2 id="projetos">Meus projetos</H2>
         <ProjectsSection>
           {projects.map((project) => (
             <Project
