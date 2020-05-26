@@ -12,7 +12,7 @@ const About = () => {
         e sim a caixa grande embaixo, venho me interessando cada vez mais nessa máquina 
         resolutora de problemas. Decidi, mais tarde, aprender um pouco sobre programação 
         e gostei tanto que quis cursar técnico em informática para entrar nessa área de 
-        eterno aprendizado. Aqui estou.
+        eterno aprendizado.
       </Text>
     </>
   )

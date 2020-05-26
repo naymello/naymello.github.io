@@ -6,15 +6,15 @@ import List from '../styles/List'
 const Technologies = () => {
   return (
     <>
-      <H2>Tecnologias</H2>
+      <H2>Tecnologias que venho usando</H2>
       <List>
-        <li>JavaScript</li>
-        <li>CSS/SCSS</li>
         <li>ReactJS</li>
+        <li>JavaScript (ES6)</li>
         <li>Webpack</li>
-        <li>Styled Components</li>
         <li>NodeJS</li>
         <li>Express</li>
+        <li>Styled Components</li>
+        <li>SCSS</li>
       </List>
     </>
   )
