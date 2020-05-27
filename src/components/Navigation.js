@@ -17,7 +17,7 @@ class Navigation extends Component {
     }
   }
 
-  handleHamburger = () => {
+  toggleNav = () => {
     this.setState(prevState => ({
       active: !prevState.active
     }))
@@ -34,7 +34,7 @@ class Navigation extends Component {
             <li><StyledLink to="/#projetos">Meus projetos</StyledLink></li>
             <li><StyledLink to="/#contato">Contato</StyledLink></li>
           </ul>
-          <img src={hamburger} onClick={this.handleHamburger}/>
+          <img src={hamburger} onClick={this.toggleNav}/>
         </Wrapper>
       </Navbar>
     )
