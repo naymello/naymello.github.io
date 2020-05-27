@@ -10,7 +10,7 @@ const Wrapper = styled.div`
 
   ${Navbar} & {
     display: flex;
-    margin: 2.6vh auto 0;
+    margin: 20px auto 0;
     padding: 0 20px;
   }
 
