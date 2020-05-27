@@ -23,16 +23,22 @@ class Navigation extends Component {
     }))
   }
 
+  disableNav = () => {
+    this.setState({
+      active: false
+    })
+  }
+
   render() {
     return (
       <Navbar active={this.state.active}>
         <Wrapper>
           <Logo fill="#000" />
           <ul>
-            <li><StyledLink to="/#sobre">Sobre mim</StyledLink></li>
-            <li><StyledLink to="/#tecnologias">Tecnologias</StyledLink></li>
-            <li><StyledLink to="/#projetos">Meus projetos</StyledLink></li>
-            <li><StyledLink to="/#contato">Contato</StyledLink></li>
+            <li><StyledLink to="/#sobre" onClick={this.disableNav}>Sobre mim</StyledLink></li>
+            <li><StyledLink to="/#tecnologias" onClick={this.disableNav}>Tecnologias</StyledLink></li>
+            <li><StyledLink to="/#projetos" onClick={this.disableNav}>Meus projetos</StyledLink></li>
+            <li><StyledLink to="/#contato" onClick={this.disableNav}>Contato</StyledLink></li>
           </ul>
           <img src={hamburger} onClick={this.toggleNav}/>
         </Wrapper>
