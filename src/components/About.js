@@ -6,7 +6,7 @@ import Text from '../styles/Text'
 const About = () => {
   return (
     <>
-      <H2 id="sobre">Sobre mim</H2>
+      <H2 color="#80FFB3" id="sobre">Sobre mim</H2>
       <Text>
         Desde os 6 anos, quando descobri que o computador na verdade não era o monitor 
         e sim a caixa grande embaixo, venho me interessando cada vez mais nessa máquina 
