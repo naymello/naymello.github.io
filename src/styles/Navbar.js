@@ -6,10 +6,11 @@ const Navbar = styled.nav`
   top: 0;
   right: 0;
   width: 100%;
+  z-index: 1;
   display: flex;
   align-items: flex-start;
   flex-direction: ${props => props.active ? 'column' : 'row'};
-  height: ${props => props.active ? '190px' : '7.5vh'};
+  height: ${props => props.active ? '33vh' : '7.5vh'};
   transition-timing-function: ease-in-out;
 
   ul {
@@ -19,7 +20,7 @@ const Navbar = styled.nav`
     position: ${props => props.active ? 'absolute' : 'static'};
 
     /* Will only work when absolute position is set */
-    top: 70px;
+    top: 8vh;
     left: 5px;
 
     @media (min-width: 768px) {
@@ -29,7 +30,7 @@ const Navbar = styled.nav`
 
     li {
       float: ${props => props.active ? 'none' : 'left'};
-      margin: ${props => props.active ? '5px 15px' : '0 15px'};
+      margin: ${props => props.active ? '15px 15px' : '0 15px'};
     }
   }
 
