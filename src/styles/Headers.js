@@ -29,7 +29,7 @@ export const H2 = styled.h2`
   ::after {
     content: '';
     display: block;
-    width: 13rem;
+    width: 10rem;
     height: 1rem;
     background-color: ${props => props.color};
     margin: -12.5px 0 15px;
