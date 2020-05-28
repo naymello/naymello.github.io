@@ -35,10 +35,11 @@ const Navbar = styled.nav`
     list-style-type: none;
     height: 150px;
     opacity: ${props => props.active ? '1' : '0'};
+    pointer-events: ${props => props.active ? 'all' : 'none'};
+    animation: ${props => props.active ? 'fadeIn 1s' : 'none'};
     position: absolute;
     top: 70px;
     left: 20px;
-    animation: ${props => props.active ? 'fadeIn 1s' : 'none'};
 
     @media (min-width: 768px) {
       height: 2rem;
@@ -47,6 +48,7 @@ const Navbar = styled.nav`
       width: 60%;
       max-width: 50rem;
       position: static;
+      pointer-events: all;
       opacity: 1;
     }
   }
