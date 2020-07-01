@@ -14,24 +14,24 @@ import ccCover from '../assets/ccCover.jpg'
 const Project = (props) => {
   return (
     <Card>
-      <img 
+      <img
         src={props.cover}
         alt={props.name}
         onClick={() => { window.open(props.website) }}
-        style={{cursor: 'pointer'}}
+        style={{ cursor: 'pointer' }}
       />
       <div>
-        <img src={props.logo} alt={props.name}/>
+        <img src={props.logo} alt={props.name} />
         <H3>{props.name}</H3>
       </div>
       <Text>
         {props.about}
       </Text>
       <br />
-      <Text style={{fontWeight: 'bold'}}>
+      <Text style={{ fontWeight: 'bold' }}>
         {props.technologies}
       </Text>
-      <Button primary onClick={() => { window.open(props.website) }}>Ir para o site</Button>   
+      <Button primary onClick={() => { window.open(props.website) }}>Ir para o site</Button>
       <Button onClick={() => { window.open(props.github) }}>GitHub</Button>
     </Card>
   )
@@ -40,7 +40,7 @@ const Project = (props) => {
 export default class MyProjects extends Component {
   constructor(props) {
     super(props)
-  
+
     this.state = {
       projects: [
         {
@@ -66,7 +66,7 @@ export default class MyProjects extends Component {
       ]
     }
   }
-  
+
   render() {
     const { projects } = this.state
 
