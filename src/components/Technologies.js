@@ -10,6 +10,7 @@ const Technologies = () => {
       <List>
         <li>ReactJS</li>
         <li>JavaScript (ES6)</li>
+        <li>Gatsby</li>
         <li>Webpack</li>
         <li>NodeJS</li>
         <li>Express</li>
