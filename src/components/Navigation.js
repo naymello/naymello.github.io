@@ -38,7 +38,7 @@ class Navigation extends Component {
             <li><StyledLink to="/#sobre" onClick={this.disableNav}>Sobre mim</StyledLink></li>
             <li><StyledLink to="/#tecnologias" onClick={this.disableNav}>Tecnologias</StyledLink></li>
             <li><StyledLink to="/#projetos" onClick={this.disableNav}>Meus projetos</StyledLink></li>
-            <li><StyledLink to="/#contato" onClick={this.disableNav}>Contato</StyledLink></li>
+            <li><StyledLink to="/curriculo.pdf" onClick={this.disableNav}>Currículo</StyledLink></li>
           </ul>
           <img src={hamburger} onClick={this.toggleNav} />
         </Wrapper>
