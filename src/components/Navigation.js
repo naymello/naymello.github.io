@@ -11,7 +11,7 @@ import hamburger from '../assets/hamburger.svg'
 class Navigation extends Component {
   constructor(props) {
     super(props)
-  
+
     this.state = {
       active: false
     }
@@ -40,7 +40,7 @@ class Navigation extends Component {
             <li><StyledLink to="/#projetos" onClick={this.disableNav}>Meus projetos</StyledLink></li>
             <li><StyledLink to="/#contato" onClick={this.disableNav}>Contato</StyledLink></li>
           </ul>
-          <img src={hamburger} onClick={this.toggleNav}/>
+          <img src={hamburger} onClick={this.toggleNav} />
         </Wrapper>
       </Navbar>
     )
