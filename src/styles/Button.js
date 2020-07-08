@@ -12,7 +12,8 @@ const Button = styled.button`
 
   :hover {
     transition: .3s;
-    background-color: ${props => props.primary ? '#111' : '#EEE'}
+    background-color: ${props => props.primary ? '#111' : '#EEE'};
+    border-color: #111;
   }
 `
 
