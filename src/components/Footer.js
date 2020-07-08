@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <StyledFooter>
       <Wrapper>
-        <Logo fill="#4B4B4B" />
+        <Logo backgroundColor="#4B4B4B" logoColor="#040404" />
         <H4 style={{ color: '#4B4B4B', margin: '0 20px' }}>Desenvolvido por Nay Mello</H4>
       </Wrapper>
     </StyledFooter>

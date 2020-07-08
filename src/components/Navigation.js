@@ -33,7 +33,7 @@ class Navigation extends Component {
     return (
       <Navbar active={this.state.active}>
         <Wrapper>
-          <Logo fill="#000" />
+          <Logo backgroundColor="#44DDFF" logoColor="#003946" />
           <ul>
             <li><StyledLink to="/#sobre" onClick={this.disableNav}>Sobre mim</StyledLink></li>
             <li><StyledLink to="/#tecnologias" onClick={this.disableNav}>Tecnologias</StyledLink></li>
