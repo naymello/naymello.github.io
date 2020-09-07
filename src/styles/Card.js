@@ -20,6 +20,7 @@ const Card = styled.section`
 
   div {
     display: flex;
+    align-items: flex-start;
     margin-top: 10px;
   }
 `
