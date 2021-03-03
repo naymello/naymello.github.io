@@ -30,8 +30,8 @@ const Project = (props) => {
       <BoldText>
         {props.technologies}
       </BoldText>
-      <Button primary onClick={() => { window.open(props.website) }}>Ir para o site</Button>
-      <Button onClick={() => { window.open(props.github) }}>GitHub</Button>
+      <Button primary fontColor={props.secondaryColor} backgroundColor={props.primaryColor} onClick={() => { window.open(props.website) }}>Ir para o site</Button>
+      <Button backgroundColor={props.primaryColor} fontColor={props.primaryColor} onClick={() => { window.open(props.github) }}>GitHub</Button>
     </Card>
   )
 }
@@ -50,7 +50,9 @@ export default class MyProjects extends Component {
           website: 'https://my-musical-picture.netlify.app/',
           github: 'https://github.com/naymello/my-musical-picture',
           logo: mmpLogo,
-          cover: mmpCover
+          cover: mmpCover,
+          primaryColor: '#2929B1',
+          secondaryColor: '#F9FF3E'
         },
         {
           id: 1,
@@ -60,7 +62,9 @@ export default class MyProjects extends Component {
           website: 'https://chord-chart.netlify.app/',
           github: 'https://github.com/naymello/chord-chart',
           logo: ccLogo,
-          cover: ccCover
+          cover: ccCover,
+          primaryColor: '#001724',
+          secondaryColor: '#8BC9E5'
         }
       ]
     }
@@ -83,6 +87,8 @@ export default class MyProjects extends Component {
               github={project.github}
               logo={project.logo}
               cover={project.cover}
+              primaryColor={project.primaryColor}
+              secondaryColor={project.secondaryColor}
             />
           ))}
         </ProjectsSection>
