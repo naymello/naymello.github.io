@@ -5,17 +5,17 @@ const Card = styled.section`
   max-width: 768px;
   margin: 30px 20px 20px;
   box-shadow: 5px 10px 25px 0px rgba(0,0,0,0.075);
-  border-radius: 10px;
+  border-radius: 2.5px;
 
   img {
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 2.5px 2.5px 0 0;
   }
 
   div img {
     margin: 20px;
     width: 20%;
-    border-radius: 7.5px;
+    border-radius: 2.5px;
   }
 
   div {
