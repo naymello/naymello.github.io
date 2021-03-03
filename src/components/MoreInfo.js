@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { H2 } from '../styles/Headers'
+import { H2 } from '../styles/Typography'
 import Button from '../styles/Button'
 
 const MoreInfo = () => {

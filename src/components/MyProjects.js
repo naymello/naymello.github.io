@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 
-import { H2, H3 } from '../styles/Headers'
 import Card from '../styles/Card'
-import Text from '../styles/Text'
+import { StandardText, BoldText, H2, H3 } from '../styles/Typography'
 import Button from '../styles/Button'
 import ProjectsSection from '../styles/ProjectsSection'
 
@@ -24,13 +23,13 @@ const Project = (props) => {
         <img src={props.logo} alt={props.name} />
         <H3>{props.name}</H3>
       </div>
-      <Text>
+      <StandardText>
         {props.about}
-      </Text>
+      </StandardText>
       <br />
-      <Text style={{ fontWeight: 'bold' }}>
+      <BoldText>
         {props.technologies}
-      </Text>
+      </BoldText>
       <Button primary onClick={() => { window.open(props.website) }}>Ir para o site</Button>
       <Button onClick={() => { window.open(props.github) }}>GitHub</Button>
     </Card>

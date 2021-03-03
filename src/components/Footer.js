@@ -2,7 +2,7 @@ import React from 'react'
 
 import Logo from './Logo'
 
-import { H4 } from '../styles/Headers'
+import { H4 } from '../styles/Typography'
 import StyledFooter from '../styles/StyledFooter'
 import Wrapper from '../styles/Wrapper'
 
