@@ -4,7 +4,7 @@ const Card = styled.section`
   width: calc(100% - 40px);
   max-width: 768px;
   margin: 30px 20px 20px;
-  box-shadow: 5px 10px 25px 0px rgba(0,0,0,0.25);
+  box-shadow: 5px 10px 25px 0px rgba(0,0,0,0.075);
   border-radius: 10px;
 
   img {
