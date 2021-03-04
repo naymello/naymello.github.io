@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 250 250">
+  <g id="logo" transform="translate(-342 -705)">
+    <rect id="background" width="250" height="250" transform="translate(342 705)" fill="#44DDFF"/>
+    <path id="logo-2" data-name="logo" d="M148.011,0V46.209L127.2,0H106.947L86,46.209V0H62.138L23.251,58.836V0H0V95.846H23.251L62.138,36.467V95.846H86L117.35,29.081l30.661,66.764h23.406V0Z" transform="translate(514.846 744) rotate(90)" fill="#003946"/>
+  </g>
+</svg>
