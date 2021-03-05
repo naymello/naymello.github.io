@@ -8,6 +8,10 @@ const MyTitleContainer = styled.section`
   align-items: flex-start;
   padding: 10vh 0 10vh;
 
+  //GSAP
+  opacity: 0;
+  transform: translate(-20px, 0);
+
   @media (min-width: 768px) and (min-height: 880px) {
     height: 60vh;
   }
