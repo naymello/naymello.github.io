@@ -3,10 +3,12 @@ import React from 'react'
 import { H2 } from '../styles/Typography'
 import List from '../styles/List'
 
-const Technologies = () => {
+const Technologies = (props) => {
   return (
-    <>
-      <H2 color="#B79EFF" id="tecnologias">Tecnologias que venho usando</H2>
+    <div ref={props.reference} style={{ opacity: 0, transform: 'translate(0, 60px)' }}>
+      <H2 color="#B79EFF" id="tecnologias">
+        Tecnologias que venho usando
+      </H2>
       <List>
         <li>ReactJS</li>
         <li>JavaScript (ES6)</li>
@@ -17,7 +19,7 @@ const Technologies = () => {
         <li>Styled Components</li>
         <li>SCSS</li>
       </List>
-    </>
+    </div>
   )
 }
 

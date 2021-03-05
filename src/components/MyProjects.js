@@ -74,7 +74,7 @@ export default class MyProjects extends Component {
     const { projects } = this.state
 
     return (
-      <>
+      <div ref={this.props.reference} style={{ opacity: 0, transform: 'translate(0, 60px)' }}>
         <H2 color="#FF9FFB" id="projetos">Meus projetos</H2>
         <ProjectsSection>
           {projects.map((project) => (
@@ -92,7 +92,7 @@ export default class MyProjects extends Component {
             />
           ))}
         </ProjectsSection>
-      </>
+      </div>
     )
   }
 }
