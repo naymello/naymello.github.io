@@ -10,8 +10,10 @@ const Technologies = (props) => {
         Tecnologias que venho usando
       </H2>
       <List>
+        <li>TypeScript</li>
         <li>ReactJS</li>
         <li>JavaScript (ES6)</li>
+        <li>NextJS</li>
         <li>Gatsby</li>
         <li>Webpack</li>
         <li>NodeJS</li>
